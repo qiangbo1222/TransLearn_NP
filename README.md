@@ -8,7 +8,7 @@ the data can be derived from the offical website of [ChEMBL](https://www.ebi.ac.
 
 ## Usage
 
-All the model's defination can be found in train.py and finetune.py
+All the model's defination can be found in pretrain.py and finetune.py
 
 ## Contributing
 Bo Qiang, School of Pharmaceutical Sciences, Peking University
