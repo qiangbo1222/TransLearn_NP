@@ -8,7 +8,7 @@ This repository contains the code to reproduce the results from our published pa
 The bioactivity data used for training can be derived from the offical website of [ChEMBL](https://www.ebi.ac.uk/chembl/) and the structures of natural products can be downloaded from [COCONUT](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00478-9). The code needed for cleaning and processing data are provided.
 
 ## Models
-The model was pre-trained on a processed ChEMBL dataset and then fine-tuned on a natural product dataset. Benefitting from transfer learning and the data balancing technique, the model achieved a highly promising area under the receiver operating characteristic curve (AUROC) score of 0.910, with limited task-related training samples. The boost effect of model's AUROC can be viewed in the belowed Figure.
+The model was pre-trained on a processed ChEMBL dataset and then fine-tuned on a natural product dataset. Benefitting from these techniques, the model achieved a highly promising area under the receiver operating characteristic curve (AUROC) score of 0.910, with limited task-related training samples. The boost effect of model's AUROC can be viewed in the belowed Figure.
 ![image](https://github.com/qiangbo1222/TransLearn_NP/blob/main/images/Fig3.png)
 
 All the model's defination can be found in pretrain.py and finetune.py
