@@ -4,7 +4,7 @@ This repository contains the code to reproduce the results from our published pa
 
 ## Data
 
-the data can be derived from the offical website of [ChEMBL](https://www.ebi.ac.uk/chembl/). The code need to clean and process data are provided.
+The data used for training can be derived from the offical website of [ChEMBL](https://www.ebi.ac.uk/chembl/). The code need to clean and process data are provided.
 
 ## Usage
 
